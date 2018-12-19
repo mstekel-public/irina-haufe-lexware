@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="5" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-11-20 05:10:46Z" end-time="2018-11-20 05:10:55Z" duration="9.068621">
+  <command-line><![CDATA["C:/go/pipelines/OctaneTest_system_tests/top/erp_api_system_tests/build/tools/NUnit.ConsoleRunner.3.8.0/tools/nunit3-console.exe" "C:/go/pipelines/OctaneTest_system_tests/top/erp_api_system_tests/DatevExport.Tests/bin/Release/DatevExport.Tests.dll" --where "cat != ecom" --workers=1 --skipnontestassemblies "--result=C:/go/pipelines/OctaneTest_system_tests/top/erp_api_system_tests/TestResults/TestResult.xml" --process=InProcess]]></command-line>
+  <filter>
+    <not>
+      <cat>ecom</cat>
+    </not>
+  </filter>
+  <test-suite type="Assembly" id="0-1002" name="DatevExport.Tests.dll" fullname="DatevExport.Tests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-11-20 05:10:48Z" end-time="2018-11-20 05:10:55Z" duration="7.028594" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\go\pipelines\OctaneTest_system_tests\top\erp_api_system_tests\build" machine-name="VW-TOPASBUILD-1" user="topastu" user-domain="VW-TOPASBUILD-1" culture="de-DE" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DisposeRunners" value="True" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="WorkDirectory" value="C:\go\pipelines\OctaneTest_system_tests\top\erp_api_system_tests\build" />
+      <setting name="NumberOfTestWorkers" value="1" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+    </settings>
+    <properties>
+      <property name="_PID" value="1880" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1003" name="DatevExport" fullname="DatevExport" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-11-20 05:10:48Z" end-time="2018-11-20 05:10:55Z" duration="6.968048" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+      <properties />
+      <test-suite type="TestSuite" id="0-1004" name="Tests" fullname="DatevExport.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-11-20 05:10:48Z" end-time="2018-11-20 05:10:55Z" duration="6.967412" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+        <properties />
+        <test-suite type="TestFixture" id="0-1000" name="DatevExportTest" fullname="DatevExport.Tests.DatevExportTest" classname="DatevExport.Tests.DatevExportTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-11-20 05:10:48Z" end-time="2018-11-20 05:10:55Z" duration="6.961490" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <properties>
+            <property name="ParallelScope" value="None" />
+          </properties>
+          <test-case id="0-1001" name="DatevExport_ExportTriggered_DatevExportAccountDataIsSaved" fullname="DatevExport.Tests.DatevExportTest.DatevExport_ExportTriggered_DatevExportAccountDataIsSaved" methodname="DatevExport_ExportTriggered_DatevExportAccountDataIsSaved" classname="DatevExport.Tests.DatevExportTest" runstate="Runnable" seed="1135374767" result="Passed" start-time="2018-11-20 05:10:54Z" end-time="2018-11-20 05:10:55Z" duration="0.273251" asserts="5">
+            <properties />
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
